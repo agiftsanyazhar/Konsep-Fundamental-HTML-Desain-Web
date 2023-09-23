@@ -1,0 +1,52 @@
+/* ==================== General ====================== */
+body {
+  font-family: "Poppins", "sans-serif";
+  background-color: #ffffff;
+}
+
+/* ==================== Navbar Head ====================== */
+.navbar-head {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.navbar-head img {
+  max-width: 400px;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* ==================== Navbar ====================== */
+.navbar {
+  background-color: #ff0a74;
+  overflow: hidden;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  border-radius: 18px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.461);
+  font-weight: 500;
+}
+
+.navbar-main a {
+  float: left;
+  color: #cfcfcf;
+  padding: 10px 12px;
+  font-size: 17px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar-main a:hover,
+a.active {
+  color: #fff;
+}
+
+.navbar-right a {
+  float: right;
+  padding: 10px 12px;
+  text-align: center;
+}
