@@ -16,12 +16,12 @@
     <link rel="stylesheet" href="assets/style/style.css" />
   </head>
   <body>
-    <div class="navbar-head">
-      <a href="index.html">
-        <img src="assets/img/sistem-informasi.png" alt="" />
-      </a>
-    </div>
-    <nav>
+    <nav class="navbar">
+      <div class="navbar-head">
+        <a href="index.html">
+          <img src="assets/img/sistem-informasi.png" alt="" />
+        </a>
+      </div>
       <ul>
         <li><a class="active" href="index.html">Home</a></li>
         <li class="dropdown">
@@ -32,13 +32,84 @@
             <a href="#">Staf Pengajar</a>
           </div>
         </li>
-        <li><a href="#">Akademik</a></li>
-        <li><a href="#">Kemahasiswaan</a></li>
-        <li><a href="#">Penelitian</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Akademik <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" stroke="#cfcfcf" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9l6 6l6-6"/></svg></a>
+          <div class="dropdown-content">
+            <a href="#">Kurikulum</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Kemahasiswaan <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" stroke="#cfcfcf" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9l6 6l6-6"/></svg></a>
+          <div class="dropdown-content">
+            <a href="#">Penerimaan Mahasiswa</a>
+            <a href="#">Himpunan Mahasiswa</a>
+            <a href="#">Prestasi Mahasiswa</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Penelitian <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" stroke="#cfcfcf" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9l6 6l6-6"/></svg></a>
+          <div class="dropdown-content">
+            <a href="#">Penelitian</a>
+            <a href="#">Pengabdian Masyarakat</a>
+          </div>
+        </li>
+        
         <li><a href="#">Unduh File</a></li>
         <li><a href="#">Software House</a></li>
         <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#cfcfcf" fill-rule="evenodd" d="M14.385 15.446a6.75 6.75 0 1 1 1.06-1.06l5.156 5.155a.75.75 0 1 1-1.06 1.06l-5.156-5.155Zm-7.926-1.562a5.25 5.25 0 1 1 7.43-.005l-.005.005l-.005.004a5.25 5.25 0 0 1-7.42-.004Z" clip-rule="evenodd"/></svg></a></li>
       </ul>
+      <div class="navbar-story">
+        <div class="top-stories">
+          Top Stories
+        </div>
+        <div class="slideshow-container">
+          <div class="slide">
+            <div class="grid-container">
+              <div class="slide-story">
+                <p>14 Agustus 2023</p>
+                <a href="#"><h3>Dokumen Kurikulum Program Sarjana...</h3></a>
+              </div>
+              <div class="slide-story">
+                <p>13 Juni 2023</p>
+                <a href="#"><h3>Re-Desain Antarmuka: Narasi</h3></a>
+              </div>
+              <div class="slide-story">
+                <p>13 Juni 2023</p>
+                <a href="#"><h3>Re-Desain Antarmuka: Greenpeace Indonesia</h3></a>
+              </div>
+              <div class="slide-story">
+                <p>5 Juni 2023</p>
+                <a href="#"><h3>Desain Antarmuka: Bacain - Narasi/Literasi</h3></a>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="grid-container">
+              <div class="slide-story">
+                <p>14 Juni 2023</p>
+                <a href="#"><h3>Desain Antarmuka: FRESHDENT</h3></a>
+              </div>
+              <div class="slide-story">
+                <p>14 November 2021</p>
+                <a href="#"><h3>Webinar “Startup Technopreneur” HIMA D3...</h3></a>
+              </div>
+              <div class="slide-story">
+                <p>28 Februari 2021</p>
+                <a href="#"><h3>Beasiswa Yayasan Van Deventer – Maas...</h3></a>
+              </div>
+              <div class="slide-story">
+                <p>28 Februari 2021</p>
+                <a href="#"><h3>Welcome Party and HIMASI HUT 2020</h3></a>
+              </div>
+            </div>
+          </div>
+  
+          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+      </div>
     </nav>
+
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

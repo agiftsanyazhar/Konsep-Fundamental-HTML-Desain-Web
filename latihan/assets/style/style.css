@@ -1,25 +1,95 @@
-/* ==================== General ====================== */
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
 body {
   font-family: "Poppins", "sans-serif";
-  background-color: #ffffff;
+  background-color: #f4f6f9;
 }
 
-/* ==================== Navbar Head ====================== */
+* {
+  box-sizing: border-box;
+}
+.slide {
+  display: none;
+}
+
+/* .column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  margin: 0 50px 0 50px;
+}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #cfcfcf;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 5px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover,
+.next:hover {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+/* Navbar */
+.navbar {
+  padding: 0 20px;
+  background-color: #fff;
+}
+
+/* Navbar Head */
 .navbar-head {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  padding: 20px;
 }
 
 .navbar-head img {
   max-width: 400px;
   height: auto;
   vertical-align: middle;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
-/* ==================== Navbar ====================== */
+/*  Navbar Main */
 /* .navbar {
   background-color: #ff0a74;
   overflow: hidden;
@@ -33,8 +103,7 @@ body {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 10px 0 10px 0;
   overflow: hidden;
   background-color: #ff0a74;
   padding: 10px 12px;
@@ -120,3 +189,45 @@ li .dropdown {
 a.active {
   color: #fff;
 } */
+
+/*  Navbar Story */
+.navbar-story {
+  margin: 30px 0 30px 0;
+}
+
+.navbar-story .top-stories {
+  width: 110px;
+  padding: 8px 10px;
+  background-color: #7f7f80c6;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-story .slide-story {
+  border-right: 1px solid #cfcfcf;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.navbar-story .slide-story p {
+  color: #333;
+  font-size: 13px;
+  margin: 0 0 10px 0;
+  text-transform: capitalize;
+}
+
+.navbar-story .slide-story a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar-story .slide-story a:hover {
+  color: #00236e;
+}
+
+.navbar-story .slide-story h3 {
+  margin: 0;
+  font-weight: 600;
+  line-height: 23px;
+}
