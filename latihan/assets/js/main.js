@@ -1,5 +1,5 @@
 let slideIndex = [1, 1];
-let slideId = ["slide"];
+let slideId = ["slide", "slide-berita"];
 showSlides(1, 0);
 showSlides(1, 1);
 
