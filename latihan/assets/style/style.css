@@ -210,7 +210,7 @@ a.active {
 }
 
 .navbar-story .slide-story p {
-  color: #333;
+  color: #a1a1a1;
   font-size: 12px;
   margin: 0 0 10px 0;
   text-transform: capitalize;
@@ -321,6 +321,8 @@ section {
 }
 
 .featured .featured-card p {
+  color: #a1a1a1;
+  text-transform: capitalize;
   margin: 0 0 12px 0;
   font-size: 13px;
 }
@@ -355,4 +357,10 @@ section {
 
 .featured .featured-card .slide-agenda img {
   height: 75px;
+}
+
+/* Stories */
+.featured-stories .featured-card {
+  width: 100%;
+  height: 95%;
 }
