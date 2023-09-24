@@ -39,7 +39,6 @@ body {
   margin: auto;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -55,13 +54,11 @@ body {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 5px;
 }
 
-/* On hover, add a grey background color */
 .prev:hover,
 .next:hover {
   background-color: #f1f1f1;
@@ -71,7 +68,6 @@ body {
 /* --------------------------------------------------------------
 # Navbar
 -------------------------------------------------------------- */
-/* Navbar */
 .navbar {
   padding: 0 20px;
   background-color: #fff;
@@ -192,7 +188,7 @@ a.active {
   color: #fff;
 } */
 
-/*  Navbar Story */
+/* Navbar Story */
 .navbar-story {
   margin: 30px 0 30px 0;
 }
@@ -220,7 +216,7 @@ a.active {
 }
 
 .navbar-story .slide-story a {
-  color: #000;
+  color: #4d4d4d;
   text-decoration: none;
 }
 
@@ -265,6 +261,7 @@ section {
 }
 
 .section-title h3 {
+  color: #ff0a74;
   margin: 0 !important;
 }
 
@@ -277,6 +274,7 @@ section {
 /* --------------------------------------------------------------
 # Featured Section
 -------------------------------------------------------------- */
+/* Berita */
 .col-berita {
   grid-column: 1 / span 2;
 }
@@ -288,8 +286,31 @@ section {
 }
 
 .featured-section .card img {
-  width: 100%;
-  height: 300px;
+  border-radius: 12px;
   object-fit: cover;
-  border-radius: 18px;
+}
+
+.featured-section .card .slide-berita img {
+  width: 100%;
+  height: 350px;
+}
+
+/* Pengumuman */
+.col-pengumuman {
+  grid-column-start: 3;
+}
+
+.featured-section .card .slide-pengumuman img {
+  width: 311px;
+  height: 350px;
+}
+
+/* Agenda */
+.col-agenda {
+  grid-column-start: 4;
+}
+
+.featured-section .card .slide-agenda img {
+  width: 100%;
+  height: 175px;
 }
