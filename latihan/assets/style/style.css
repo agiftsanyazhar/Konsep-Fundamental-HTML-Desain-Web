@@ -287,12 +287,12 @@ section {
 }
 
 .featured-section .card img {
+  width: 100%;
   border-radius: 12px;
   object-fit: cover;
 }
 
 .featured-section .card .slide-berita img {
-  width: 100%;
   height: 350px;
 }
 
@@ -312,6 +312,5 @@ section {
 }
 
 .featured-section .card .slide-agenda img {
-  width: 100%;
   height: 175px;
 }
