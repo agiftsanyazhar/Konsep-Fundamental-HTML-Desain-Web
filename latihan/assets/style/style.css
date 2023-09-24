@@ -283,6 +283,7 @@ section {
   background: #fff;
   padding: 12px;
   margin: 8px 0;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.158);
 }
 
 .featured .featured-card img {
@@ -405,6 +406,7 @@ section {
   border-radius: 18px;
   background-position: center center;
   vertical-align: middle;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.158);
 }
 
 .featured .site-content p {
