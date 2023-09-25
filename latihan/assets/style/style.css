@@ -66,6 +66,25 @@ body {
   color: #000;
 }
 
+table,
+th,
+td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 10px;
+  background: #fff;
+}
+
+th {
+  font-size: 16px;
+  font-weight: 600;
+  background: #eee;
+}
+
+td {
+  color: #555;
+}
+
 /* --------------------------------------------------------------
 # Navbar
 -------------------------------------------------------------- */
