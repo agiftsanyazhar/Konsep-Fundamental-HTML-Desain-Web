@@ -14,18 +14,6 @@ body {
   display: none;
 }
 
-/* .column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
-
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -88,69 +76,21 @@ td {
 /* --------------------------------------------------------------
 # Navbar
 -------------------------------------------------------------- */
-.navbar {
-  padding: 0 20px;
-  background-color: #fff;
-}
-
-/* Navbar Head */
-.navbar-head {
-  padding: 20px;
-}
-
-.navbar-head img {
-  max-width: 400px;
-  height: auto;
-  vertical-align: middle;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
 /*  Navbar Main */
-/* .navbar {
-  background-color: #ff0a74;
-  overflow: hidden;
-  padding: 10px;
-  position: sticky;
-  top: 0;
+.navbar-main {
+  background-color: #103968;
+  margin: 10px 0 10px 0;
+  padding: 10px 12px;
   border-radius: 18px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.461);
-  font-weight: 500;
-} */
-
-/* .navbar-main a {
-  float: left;
-  color: #cfcfcf;
-  padding: 10px 12px;
-  font-size: 17px;
-  text-align: center;
-  text-decoration: none;
 }
-
-.navbar-main svg {
-  vertical-align: middle;
-  margin: 0 3px;
-}
-
-.navbar-main a:hover,
-a.active {
-  color: #fff;
-} */
 
 .navbar-main ul {
   list-style-type: none;
-  margin: 10px 0 10px 0;
   overflow: hidden;
-  background-color: #ff0a74;
-  padding: 10px 12px;
-  /* position: sticky;
-  top: 0; */
-  border-radius: 18px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.461);
   font-weight: 500;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 .navbar-main li a,
@@ -598,7 +538,7 @@ p {
 # Footer
 -------------------------------------------------------------- */
 .footer {
-  background-color: #ff0a74;
+  background-color: #103968;
   color: #cfcfcf;
   text-align: center;
   padding: 20px;
