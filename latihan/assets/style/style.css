@@ -239,8 +239,8 @@ a.active {
   display: inline-block;
 }
 
-.navbar-breadcrumbs ul li.active {
-  color: #757575;
+.navbar-breadcrumbs ul li a.active {
+  color: #8d8d8d;
 }
 
 .navbar-breadcrumbs ul li::after {
@@ -490,7 +490,7 @@ p {
   text-align: justify;
 }
 
-/* Visi Misi */
+/* Sub Content */
 .sub-content {
   margin: 8px 0;
 }
@@ -500,6 +500,42 @@ p {
   font-size: 25px;
   font-weight: 500;
   text-align: center;
+}
+
+/* Profile */
+.profile {
+  margin: 8px 0;
+  width: 300px;
+}
+
+.profile .profile-image {
+  width: 150px;
+  height: 150px;
+  background: #b9b9b9;
+  border-radius: 50%;
+}
+
+.profile .profile-image img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile .profile-description {
+  margin: 20px 0;
+}
+
+.profile .profile-description h1 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.profile .profile-description p {
+  margin: 0;
+  font-size: 16px;
 }
 
 /* --------------------------------------------------------------
