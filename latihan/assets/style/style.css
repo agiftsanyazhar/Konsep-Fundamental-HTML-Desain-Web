@@ -412,15 +412,18 @@ section {
 /* --------------------------------------------------------------
 # Main Site Content
 -------------------------------------------------------------- */
+.featured .container {
+  margin: 30px 200px;
+}
+
 .featured .site-content-title {
   color: #ff0a74;
   font-size: 32px;
   font-weight: 600;
   text-align: center;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   position: relative;
-  margin-bottom: 15px;
+  margin: 0 0 15px 0;
   overflow: hidden;
   width: 100%;
 }
@@ -432,8 +435,7 @@ section {
   width: 100px;
   height: 3px;
   background: #c30a5a;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .featured .site-content-title h3 {
@@ -441,7 +443,6 @@ section {
 }
 
 .featured .site-content {
-  padding: 20px;
   text-align: center;
 }
 
@@ -490,6 +491,35 @@ section {
   margin: 0 280px;
 }
 
+.content .content-banner img {
+  width: 100%;
+  height: 500px;
+  border-radius: 18px;
+  object-fit: cover;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.158);
+}
+
+.content .content-title span {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #ff0a74;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.content .content-title a {
+  color: #4d4d4d;
+  text-decoration: none;
+}
+
+.content .content-title p {
+  color: #a1a1a1;
+  text-transform: capitalize;
+  margin: 0;
+  font-size: 13px;
+}
+
 .content .content-title {
   color: #333;
   font-size: 32px;
@@ -500,6 +530,8 @@ section {
 .content .content-title h3 {
   margin: 0;
   font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
 }
 
 .content .content-description ol,
@@ -507,6 +539,13 @@ li,
 p {
   color: #555;
   text-align: justify;
+}
+
+.content .content-description img {
+  border-radius: 18px;
+  width: 100%;
+  object-fit: contain;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.158);
 }
 
 /* Sub Content */
