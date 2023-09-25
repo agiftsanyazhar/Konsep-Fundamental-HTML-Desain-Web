@@ -435,3 +435,24 @@ section {
   background: #fff;
   border: 1px solid #ff0a74;
 }
+
+/* --------------------------------------------------------------
+# Footer
+-------------------------------------------------------------- */
+.footer {
+  background-color: #c30a5a;
+  color: #a1a1a1;
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  color: #00236e;
+}
