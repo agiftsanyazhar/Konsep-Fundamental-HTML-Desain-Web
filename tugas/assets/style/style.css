@@ -76,11 +76,12 @@ td {
 /* --------------------------------------------------------------
 # Navbar
 -------------------------------------------------------------- */
+.navbar {
+  padding: 0 20px;
+}
 /*  Navbar Main */
 .navbar-main {
   background-color: #103968;
-  margin: 10px 0 10px 0;
-  padding: 10px 12px;
   border-radius: 18px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.461);
 }
@@ -91,21 +92,43 @@ td {
   font-weight: 500;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .navbar-main li a,
 .navbar-main .dropbtn {
   display: inline-block;
   color: #cfcfcf;
-  padding: 10px 12px;
+  padding: 5px 12px;
   text-align: center;
   text-decoration: none;
 }
 
-.navbar-main .li a,
+.navbar-main .logo {
+  width: 150px;
+  vertical-align: middle;
+}
+
+.navbar-main .logo img {
+  width: auto;
+  height: 30px;
+  object-fit: cover;
+}
+
 .navbar-main svg {
   vertical-align: middle;
-  margin: 0 3px;
+}
+
+.navbar-main .search {
+  font-weight: 300;
+  border: 1px solid #cfcfcf;
+  width: auto;
+  border-radius: 12px;
+  padding: 8px 12px;
+}
+
+.navbar-main .search:hover {
+  color: #fff;
 }
 
 .navbar-main li a.active,
