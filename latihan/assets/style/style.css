@@ -454,7 +454,7 @@ section {
 .featured .site-content p {
   color: #555;
   text-align: justify;
-  padding: 20px;
+  padding: 0 5px;
 }
 
 .featured .more-button {
